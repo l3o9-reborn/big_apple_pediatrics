@@ -19,7 +19,7 @@ function Navbar() {
             className="relative z-20 mr-4 flex flex-col items-center px-2 py-1 text-sm font-normal text-foreground/90 group"
           >
             <Image
-              src="/logo_bap.jpg"
+              src="/logo.png"
               alt="logo"
               width={128}
               height={128}

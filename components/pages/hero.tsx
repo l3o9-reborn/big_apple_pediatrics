@@ -29,7 +29,7 @@ function Hero() {
                 </div>
             </div>
             <div className='h-66 w-66 md:h-72 md:w-72 lg:h-96 lg:w-96 flex items-center justify-center '>
-                <Image src="/logo_bap.jpg" alt="Hero Image" width={1080} height={1080} className='h-66 w-66 md:h-72 md:w-72 lg:h-96 lg:w-96 rounded-full ring-2 ring-amber-600 shadow-2xl shadow-amber-700/50'/>
+                <Image src="/logo.png" alt="Hero Image" width={1080} height={1080} className='h-66 w-66 md:h-72 md:w-72 lg:h-96 lg:w-96 rounded-full ring-2 ring-amber-600 shadow-2xl shadow-amber-700/50'/>
             </div>
         </div>
     </div>
