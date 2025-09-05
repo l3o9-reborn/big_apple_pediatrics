@@ -1,6 +1,3 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "@/components/common/infinite-moving-cards";
 import {testimonials} from "@/lib/data"
 export function InfiniteMovingCardsTestimonials() {

@@ -1,5 +1,5 @@
 import React from "react"
-import { Card, CardDescription, CardHeader, CardTitle } from "../ui/card"
+import { Card, CardDescription, CardHeader } from "../ui/card"
 import { Badge } from "../ui/badge"
 import MotionHead from "../motionHead"
 

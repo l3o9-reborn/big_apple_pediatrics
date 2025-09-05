@@ -4,6 +4,7 @@ import React, { useState } from "react"
 import Image from "next/image"
 import { navItems } from "@/lib/data"
 import { ModeToggle } from "./ui/themeToggle"
+import Link from "next/link"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -38,7 +39,9 @@ function Navbar() {
                 key={index}
                 className="inline-block  text-foreground/80 hover:bg-amber-700/50 hover:rounded-lg px-4 py-2 cursor-pointer transition-all duration-300"
               >
-                {item.name}
+                <Link className="text-foreground" href={item.link}>
+                  {item.name}
+                </Link>
               </li>
             ))}
           </ul>

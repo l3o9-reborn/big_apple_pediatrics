@@ -17,8 +17,6 @@ export default function ContactUs() {
                         <ContactForm/>
                     </div>
                 </div>
-
-            
         </div>
    </section>
   )
